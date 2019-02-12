@@ -26,7 +26,7 @@ a:link
 .contenedorLateral {
   float: left;
   /* background-color: #3d3d3d; */
-  width: 14%;
+  width: 10%;
   height: 100%;
   /* background: -webkit-linear-gradient(#3d3d3d, #181818);
   background: -o-linear-gradient(#3d3d3d, #181818);
@@ -34,52 +34,66 @@ a:link
   background: linear-gradient(#3d3d3d, #181818) */
 }
 
-.menu {
+
+.menuLateral {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100%;
+  height: 70%;
+}
+
+.artistaSonando {
+   width: 100%;
+   height: 30%;
+
+}
+
+.menuLateral {
   float: left;
   position: relative;
 }
 
-.menu li {
+.menuLateral li {
   list-style: none;
-  margin-left: -35px;
+  margin-left: -14%;
 
 }
 
-.menu li .seleccionado {
+.menuLateral li .seleccionado {
   color: white;
   font-weight: bold;
 }
 
-.menu a {
+.menuLateral a {
   color: grey;
 }
 
-.menu a:hover {
+.menuLateral a:hover {
   color: grey;
 }
 
-.menu a:active {
+.menuLateral a:active {
   color: white;
   font-weight: bold;
 }
 
 .contenedorMusica {
   float: right;
-  width: 86%;
+  width: 100%;
   height: 100%;
 }
 
 .menuReproduccion {
   float: left;
   height: 8%;
-  width: 100%;
+  width: 90%;
   /* background-color: black; */
 }
 
 .contenedorGrupos {
   float: left;
 
-  width: 100%;
+  width: 90%;
   height: 80%;
   /* background: -webkit-linear-gradient(#3d3d3d, #181818);
   background: -o-linear-gradient(#3d3d3d, #181818);
