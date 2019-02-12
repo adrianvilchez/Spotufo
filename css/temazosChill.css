@@ -1,0 +1,160 @@
+.temazosChillScroll {
+   width: 100%;
+   height: 100%;
+   overflow-y: scroll;
+   overflow-x: hidden;
+}
+
+.playlist {
+  width: 100%;
+  height: 36%;
+  /* background: red; */
+}
+
+.imagenPlaylist {
+  float: left;
+  width: 20%;
+  height: 100%;
+  padding-top: 0.8%;
+}
+
+.imagenPl {
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  background: url(../imagenes/temazosChill.jpeg) 100% 100%;
+}
+
+.informacionPlaylist {
+  float: left;
+  width: 80%;
+  height: 74%;
+  /* background: purple; */
+}
+
+.informacionPlaylist li {
+  list-style: none;
+  color: #d7dfdb;
+  margin-left: -35px;
+}
+
+.colorBlanco {
+  font-size: medium;
+  color: white;
+}
+
+.tituloPlaylist {
+  color: white;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.opcionesPlaylist {
+  float: left;
+  width: 80%;
+  height: 26%;
+  /* background: aqua; */
+}
+
+.encabezadoCanciones {
+  float: left;
+  /* background: red; */
+  width: 100%;
+  height: 14%
+}
+
+
+.container-3{
+  width: 98%;
+  height: 40%;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+  margin: 0 auto;
+}
+
+.container-3 input#search{
+  opacity: 50%;
+  width: 100%;
+  height: 100%;
+  background: #2b303b;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #262626;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.container-3 input#search::-webkit-input-placeholder {
+   color: #65737e;
+}
+
+.container-3 input#search:-moz-placeholder { /* Firefox 18- */
+   color: #65737e;
+}
+
+.container-3 input#search::-moz-placeholder {  /* Firefox 19+ */
+   color: #65737e;
+}
+
+.container-3 input#search:-ms-input-placeholder {
+   color: #65737e;
+}
+
+.container-3 .icon{
+  position: absolute;
+  top: 50%;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  color: #4f5b66;
+
+   -webkit-transition: all .55s ease;
+  -moz-transition: all .55s ease;
+  -ms-transition: all .55s ease;
+  -o-transition: all .55s ease;
+  transition: all .55s ease;
+}
+
+.container-2:hover .icon{
+  color: #93a2ad;
+}
+
+.container-3 input#search:focus, .container-3 input#search:active{
+    outline:none;
+}
+
+.container-3:hover .icon{
+  margin-top: 16px;
+  color: #93a2ad;
+
+  -webkit-transform:scale(1.5); /* Safari and Chrome */
+  -moz-transform:scale(1.5); /* Firefox */
+  -ms-transform:scale(1.5); /* IE 9 */
+  -o-transform:scale(1.5); /* Opera */
+   transform:scale(1.5);
+  }
+
+.container-3 input#search:hover {
+  background-color: #404040;
+}
+
+
+
+.listaReproduccion {
+  float: left;
+  width: 100%;
+  height: 50%;
+  /* background: blue; */
+}
+
+.canciones {
+  width: 100%;
+  height: 10%;
+  background: green;
+  border: 1px solid;
+}

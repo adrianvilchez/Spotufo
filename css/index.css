@@ -1,0 +1,98 @@
+.peroQueMeEstasContainer a, p {
+  color: white;
+  font-weight: bold;
+}
+
+/* .peroQueMeEstasContainer p {
+  font-weight: lighter;
+} */
+
+.peroQueMeEstasContainer p, a {
+  font-size: small;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.peroQueMeEstasContainer {
+  float: left;
+  height: 35%;
+  width: 20%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+
+.peroQueMeEstasContainer:hover
+{
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.container1, .container5 {
+  margin-left: 4%;
+}
+
+.container2, .container3, .container6, .container7 {
+  margin-left: 4%;
+}
+
+.container4, .container8 {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.grupos {
+  float: left;
+
+  height: 80%;
+  width: 100%;
+
+}
+
+.textoGrupo1 {
+  float: left;
+  height: 20%;
+  width: 100%;
+  margin-left: 4%;
+}
+
+.textoGrupo2 {
+  float: left;
+  height: 20%;
+  width: 100%;
+  margin-left: 2%;
+}
+
+.textoGrupo3 {
+  float: left;
+  height: 20%;
+  width: 100%;
+  margin-left: 2%;
+}
+
+.textoGrupo4 {
+  float: left;
+  height: 20%;
+  width: 100%;
+  margin-left: 2%;
+}
+
+.grupo1 {
+  background: url(../imagenes/temazosChill.jpeg) 100% 100%;
+}
+
+.grupo2 {
+  background: url(../imagenes/todoIndie.jpeg);
+}
+
+.grupo3 {
+  background: url(../imagenes/rockClassics.jpeg) 100%;
+}
+
+.grupo4 {
+  background: url(../imagenes/enElTRabajo.jpeg);
+}
+
+.grupo5, .grupo6, .grupo7, .grupo8 {
+  background: url(../imagenes/yourDailyMix.png) 100%;
+}
