@@ -17,23 +17,28 @@ a:link
   height: 100%;
   width: 100%;
   position: absolute;
-  background: -webkit-linear-gradient(#3d3d3d, #181818);
-  background: -o-linear-gradient(#3d3d3d, #181818);
-  background: -moz-linear-gradient(#3d3d3d, #181818);
-  background: linear-gradient(#3d3d3d, #181818)
+  background: -webkit-linear-gradient(#3d3d3d 2%, #181818 25%);
+  background: -o-linear-gradient(#3d3d3d 2%, #181818 25%);
+  background: -moz-linear-gradient(#3d3d3d 2%, #181818 25%);
+  background: linear-gradient(#3d3d3d 2%, #181818 25%);
+}
+
+.contenedorMusica {
+  float: right;
+  width: 100%;
+  height: 100%;
 }
 
 .contenedorLateral {
   float: left;
   /* background-color: #3d3d3d; */
   width: 10%;
-  height: 100%;
+  height: 88%;
   /* background: -webkit-linear-gradient(#3d3d3d, #181818);
   background: -o-linear-gradient(#3d3d3d, #181818);
   background: -moz-linear-gradient(#3d3d3d, #181818);
   background: linear-gradient(#3d3d3d, #181818) */
 }
-
 
 .menuLateral {
   overflow-y: scroll;
@@ -43,9 +48,10 @@ a:link
 }
 
 .artistaSonando {
-   width: 100%;
-   height: 30%;
-
+  float: left;
+  width: 100%;
+  height: 30%;
+  border-top: 1px solid grey;
 }
 
 .menuLateral {
@@ -66,6 +72,7 @@ a:link
 
 .menuLateral a {
   color: grey;
+  font-size: small;
 }
 
 .menuLateral a:hover {
@@ -77,23 +84,16 @@ a:link
   font-weight: bold;
 }
 
-.contenedorMusica {
-  float: right;
-  width: 100%;
-  height: 100%;
-}
-
 .menuReproduccion {
   float: left;
   height: 8%;
-  width: 90%;
+  width: 73%;
   /* background-color: black; */
 }
 
 .contenedorGrupos {
   float: left;
-
-  width: 90%;
+  width: 75%;
   height: 80%;
   /* background: -webkit-linear-gradient(#3d3d3d, #181818);
   background: -o-linear-gradient(#3d3d3d, #181818);
@@ -101,6 +101,10 @@ a:link
   background: linear-gradient(#3d3d3d, #181818) */
 }
 
+.scrollPrincipal {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
 .contenedorGrupos a, p {
   color: white;
   font-weight: bold;
@@ -110,6 +114,12 @@ a:link
   font-weight: lighter;
 }
 
+.alquiloParaPublicidad {
+  float: right;
+  width: 15%;
+  height: 88%;
+
+}
 .contenedorReproduccion {
   float: left;
   height: 12%;

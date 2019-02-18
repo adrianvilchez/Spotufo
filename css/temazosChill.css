@@ -1,8 +1,22 @@
 .temazosChillScroll {
    width: 100%;
-   height: 100%;
+   height: 80%;
    overflow-y: scroll;
    overflow-x: hidden;
+}
+
+.alquiloParaPublicidadHorizontal {
+  float: left;
+  width: 100%;
+  height: 20%;
+
+  border-top: 1px solid grey;
+}
+
+.publicidadHorizontal {
+  display:block;
+  margin: auto;
+  margin-top: 0.5%;
 }
 
 .playlist {
@@ -56,13 +70,69 @@
   /* background: aqua; */
 }
 
+.reproducir {
+  float: left;
+  width: 10%;
+  height: 85%;
+  /* background: red; */
+  margin-bottom: 15%;
+}
+
+.botonReproducir {
+  width: 100%;
+  height: 70%;
+  margin-top: 10%;
+
+  border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  border: 0px solid #000000;
+
+  color: white;
+  letter-spacing: 1px;
+  background: #1DB954;
+}
+
+.botonReproducir:hover, .botonFav:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.fav {
+  float: left;
+  width: 4%;
+  height: 28%;
+  margin-top: 1.1%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+}
+
+.fav img {
+  margin: 0 auto;
+  border-radius: 50px 50px 50px 50px;
+  -moz-border-radius: 50px 50px 50px 50px;
+  -webkit-border-radius: 50px 50px 50px 50px;
+
+  border: 1px solid #FFFFFF;
+
+}
+
+.botonFav {
+  margin: 0 auto;
+  border-radius: 50px 50px 50px 50px;
+  -moz-border-radius: 50px 50px 50px 50px;
+  -webkit-border-radius: 50px 50px 50px 50px;
+  border: 0px solid #000000;
+  background: transparent;
+}
+
 .encabezadoCanciones {
   float: left;
   /* background: red; */
   width: 100%;
   height: 14%
 }
-
 
 .container-3{
   width: 98%;
@@ -73,16 +143,17 @@
   margin: 0 auto;
 }
 
+/* Contenido de la casilla busqueda */
 .container-3 input#search{
   opacity: 50%;
   width: 100%;
   height: 100%;
-  background: #2b303b;
+  background: transparent;
   border: none;
   font-size: 10pt;
   float: left;
   color: #262626;
-  padding-left: 45px;
+  padding-left: 1%;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -143,7 +214,70 @@
   background-color: #404040;
 }
 
+.nombreCanciones {
+  float: left;
+  width: 98%;
+  height: 50%;
+  margin-left: 1%;
+  margin-right: 1%;
+  border-bottom: 1px solid #7B7B7B;
+  /* border: 1px solid #fff; */
+}
 
+.falso {
+  width: 100%;
+  height: 10%;
+}
+
+#nC.fixed {
+    position: fixed;
+    width: 72.8%;
+    height: 5%;
+    top: 7%;
+    left: 9.75%;
+    background: #333333;
+}
+
+.tC p {
+  color: #7B7B7B;
+}
+
+.tC  {
+  width: 20%;
+  height: 60%;
+  text-align: right;
+  border-top: 1px solid #7B7B7B;
+}
+
+.tituloCanciones {
+  float: left;
+  /* background: blue; */
+  text-align: center;
+}
+
+.artistaCanciones {
+  float: left;
+
+  /* background: red; */
+}
+
+.albumCanciones {
+  float: left;
+
+  /* background: grey; */
+}
+
+.fechaCanciones {
+  float: left;
+
+  /* background: green; */
+}
+
+.duracionCanciones {
+  float: left;
+
+  /* background: yellow; */
+}
 
 .listaReproduccion {
   float: left;
@@ -153,8 +287,10 @@
 }
 
 .canciones {
-  width: 100%;
+  width: 98%;
   height: 10%;
-  background: green;
-  border: 1px solid;
+  /* background: green; */
+  border-top: 1px solid #7B7B7B;
+  margin-left: 1%;
+  margin-right: 1%;
 }

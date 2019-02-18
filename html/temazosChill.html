@@ -4,14 +4,17 @@
     <meta charset="utf-8">
     <!-- Aquí el titlé irá cambiando según la canción que se esté escuchando, esto se hará
         por JS-->
-    <title>Reproductor</title>
+    <title>Reproductor Temazos Chill</title>
     <link rel="stylesheet" href="../css/principal.css">
     <link rel="stylesheet" href="../css/temazosChill.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="../js/scroll.js"></script>
+
+    <link rel="shortcut icon" href="../imagenes/spotufo-icon.png">
   </head>
   <body>
     <div class="contenedorPrincipal">
-
-
 
       <div class="contenedorMusica">
 
@@ -55,9 +58,13 @@
 
         </div>
 
+        <div class="alquiloParaPublicidad">
+
+        </div>
+
         <div class="contenedorGrupos">
 
-          <div class="temazosChillScroll">
+          <div class="temazosChillScroll" onscroll ="myFunction()">
 
             <div class="playlist">
               <div class="imagenPlaylist">
@@ -70,26 +77,57 @@
                   <br>
                   <li class="colorBlanco">PLAYLIST</li>
                   <li class="tituloPlaylist colorBlanco">Temazos Chill</li>
-                  <br>
+
                   <li>Relájate y deja que la música te acompañe</li>
                   <li>Created by <a href="#">Spotufo</a> 60 songs, 3 hr 54 min </li>
                 </ul>
               </div>
-              <div class="opcionesPlaylist">
 
+              <div class="opcionesPlaylist">
+                <div class="reproducir">
+                  <button type="button" name="button" class="botonReproducir">REPRODUCIR</button>
+                </div>
+                <div class="fav">
+                  <button type="button" name="button" class="botonFav"><img src="../imagenes/empty_fav.png" width="30px" height="30px" alt=""></button>
+
+                </div>
               </div>
+
             </div>
 
             <div class="encabezadoCanciones">
 
               <div class="container-3">
                   <span class="icon"><i class="fa fa-search"></i></span>
-                  <input type="search" id="search" placeholder="Search..." />
+                  <input type="search" id="search" placeholder="Buscar..." />
               </div>
 
+              <div class="falso">
+
+              </div>
+              <div class="nombreCanciones" id="nC">
+
+                <div class="tituloCanciones tC">
+                  <p>Título</p>
+                  <br>
+                </div>
+                <div class="artistaCanciones tC">
+                  <p>Artista</p>
+                </div>
+                <div class="albumCanciones tC">
+                  <p>Album</p>
+                </div>
+                <div class="fechaCanciones tC">
+                  <p>Fecha</p>
+                </div>
+                <div class="duracionCanciones tC">
+                  <p>Duración</p>
+                </div>
+              </div>
             </div>
 
             <div class="listaReproduccion">
+
               <div class="canciones">
 
               </div>
@@ -157,6 +195,11 @@
 
               </div>
             </div>
+
+          </div>
+
+          <div class="alquiloParaPublicidadHorizontal">
+              <a href="#"><img class="publicidadHorizontal" src="../imagenes/BANNER-Spotufo-Premium.png" alt=""></a>
 
           </div>
         </div>
