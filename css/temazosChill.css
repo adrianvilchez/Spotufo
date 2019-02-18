@@ -76,12 +76,14 @@
   height: 85%;
   /* background: red; */
   margin-bottom: 15%;
+  margin-right: 0.5%;
 }
 
 .botonReproducir {
   width: 100%;
   height: 70%;
   margin-top: 10%;
+
 
   border-radius: 20px 20px 20px 20px;
   -moz-border-radius: 20px 20px 20px 20px;
@@ -93,22 +95,20 @@
   background: #1DB954;
 }
 
-.botonReproducir:hover, .botonFav:hover {
+.botonReproducir:hover, .botonFav:hover, .botonMas:hover {
   -webkit-transform: scale(1.05);
   -ms-transform: scale(1.05);
   transform: scale(1.05);
 }
 
-.fav {
+.fav, .mas {
   float: left;
   width: 4%;
   height: 28%;
   margin-top: 1.1%;
-  margin-left: 0.5%;
-  margin-right: 0.5%;
 }
 
-.fav img {
+.fav img, .mas img {
   margin: 0 auto;
   border-radius: 50px 50px 50px 50px;
   -moz-border-radius: 50px 50px 50px 50px;
@@ -118,13 +118,26 @@
 
 }
 
-.botonFav {
+.botonFav, .botonMas {
   margin: 0 auto;
   border-radius: 50px 50px 50px 50px;
   -moz-border-radius: 50px 50px 50px 50px;
   -webkit-border-radius: 50px 50px 50px 50px;
   border: 0px solid #000000;
   background: transparent;
+}
+
+.seguidores {
+  float: left;
+  width: 80%;
+  height: 100%;
+}
+
+.seguidores p {
+  text-align: right;
+  font-size: small;
+  letter-spacing: 1px;
+  color: #7B7B7B;
 }
 
 .encabezadoCanciones {
@@ -233,7 +246,7 @@
     position: fixed;
     width: 72.8%;
     height: 5%;
-    top: 7%;
+    top: 8.1%;
     left: 9.75%;
     background: #333333;
 }
@@ -246,7 +259,7 @@
   width: 20%;
   height: 60%;
   text-align: right;
-  border-top: 1px solid #7B7B7B;
+  /* border-top: 1px solid #7B7B7B; */
 }
 
 .tituloCanciones {
@@ -288,7 +301,7 @@
 
 .canciones {
   width: 98%;
-  height: 10%;
+  height: 14%;
   /* background: green; */
   border-top: 1px solid #7B7B7B;
   margin-left: 1%;
