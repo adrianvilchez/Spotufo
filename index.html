@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="css/principal.css">
     <link rel="stylesheet" href="css/index.css">
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="../js/reproductor.js"></script>
+
     <link rel="shortcut icon" href="imagenes/spotufo-icon.png">
   </head>
   <body>
@@ -175,8 +178,34 @@
 
 
           </div>
+
           <div class="controlDeMando">
 
+            <!-- <div id="play-btn"></div> -->
+
+            <div class="audio-player">
+
+
+
+              <div class="audio-wrapper" id="player-container" href="javascript:;">
+
+                <audio id="player" ontimeupdate="initProgressBar()">
+          			  <source src="http://www.lukeduncan.me/oslo.mp3" type="audio/mp3">
+          			</audio>
+              </div>
+
+              <div class="player-controls scrubber">
+
+                <span id="seekObjContainer">
+          			  <progress id="seekObj" value="0" max="1"></progress>
+          			</span>
+
+
+                <small style="float: left; position: relative; left: 15px;" class="start-time"></small>
+                <small style="float: right; position: relative; right: 20px;" class="end-time"></small>
+              </div>
+
+            </div>
           </div>
           <div class="sonido">
 
